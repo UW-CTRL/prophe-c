@@ -1,0 +1,9 @@
+networkx
+numpy
+matplotlib
+spacy
+plotly
+seaborn
+opencv-python
+pygame
+pgmpy
