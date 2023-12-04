@@ -30,6 +30,12 @@ From there, install the required packages:
 pip install -r requirements.txt
 ```
 
+Lastly, you will need to download the medium and large English language datasets from SpaCy. In the same terminal, do:
+```
+python3 -m spacy download en_core_web_md
+python3 -m spacy download en_core_web_lg
+```
+
 ### Running an animated demonstration
 The file `demo.ipynb` is a Jupyter notebook that can be used to run a couple object-search scenarios that match the ones shown in our paper's "Qualitative Results" section.  Follow the cells there, and it should all work!
 
