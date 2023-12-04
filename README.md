@@ -1,8 +1,10 @@
-# prophe-c
-A planner for solving robotic object search using partially observed 3D scene graphs and belief-space planning
+# Partially Observed Object Search with PROPHE-C
+This repository contains the code and a basic demonstration for our paper: "Semantially-Driven Object Search Using Partially Observed 3D Scene Graphs".
+
+
 
 ### Bibtex
-If you wish to use or reference this code for your own research, use the following bibtex :)
+If you wish to use or reference this code for your own research, please use the following bibtex! :)
 
 ```
 @inproceedings{
