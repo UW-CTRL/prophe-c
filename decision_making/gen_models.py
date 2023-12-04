@@ -7,16 +7,15 @@ import re
 import numpy as np
 import random as rd
 from copy import deepcopy
-#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
 
 SIMILARITY_SCALE = 10
 MAX_ROOMS = 6
 ROOM_CONNECTIONS = 2
 TERMINAL_LEAF = "furniture"
 
-nlp = spacy.load('en_core_web_md')
+# nlp = spacy.load('en_core_web_md')
 # nlp = spacy.load('en_core_web_sm')
-# nlp = spacy.load('en_core_web_lg')
+nlp = spacy.load('en_core_web_lg')
 
 def house_model_lite(graph:nx.Graph, estimation_variable:str, var_class:str="", class_hierarchy:list=[]):
 	"""
